@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+.parent {
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  flex-direction: column;
+  text-align: left;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-80 {
+  width: 80%;
+}
